@@ -17,7 +17,7 @@
 
 				<div class="row">
 
-					<div id="plc_lt_zoneFooter_NewsletterSubscriptionFooter_pnlSubscription" class="Subscription large-7 medium-7 small-12 columns">
+					<div id="plc_lt_zoneFooter_NewsletterSubscriptionFooter_pnlSubscription" class="Subscription large-7 medium-12 small-12 columns">
 		
 						<div class="NewsletterSubscription">
 							<form action="http://electrictv.us4.list-manage1.com/subscribe/post?u=ffcb7e918564d542fe0cdb4e2&amp;id=59d636fc06" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
@@ -44,7 +44,7 @@
 
 					</div> <!-- plc_lt_zoneFooter_NewsletterSubscriptionFooter_pnlSubscription -->
 
-					<div class="newsletterText large-5 medium-5 small-12 columns">
+					<div class="newsletterText large-5 medium-12 small-12 columns">
 						Each time a new edition of videos is posted on Electric TV, we send out an e-mail announcement to everyone who has subscribed to receive updates.
 					</div>
 				</div>
