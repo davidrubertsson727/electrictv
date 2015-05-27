@@ -213,6 +213,14 @@ a:hover                             { text-decoration:underline; }
 /***********************************/
 .ibew                               { margin:20px 20px 4px 6px; }
 .neca                               { margin-top:-15px; }
+@media (min-width: 640px) and (max-width: 1024px){
+	.ibew {width: 70%;}
+	.neca {width: 70%;  margin-top: 15px;}
+}
+@media (max-width: 350px) {
+	.ibew {width: 70%;}
+	.neca {width: 60%;  margin-top: 25px;}
+}
 #advertisement                      { font-size:10px; margin-top:5px; }
 #advertisement img                  { margin-top:10px; }
 .featuredVideo     					{ border-bottom:1px solid #ace0ec; padding-bottom:4px; margin-bottom: 10px; }
@@ -341,6 +349,9 @@ nav.pager { clear:both; margin-top:40px; }
 #content-right                      { /*float: right; width: 300px; */  padding-left: 30px;}
 #content-right h1                   { font-size: 20px; font-weight: bold; }
 #content-right .grnHeader h1        { font-size: 16px; font-weight: bold; color: #0fb60e; }
+#content-left .entry-content iframe {width: 100%;}
+#content-right .widget_widget_etv_video_categories ul li a {font-size: 12px;}
+/*#content-left .entry-content #ratingDisplay*/
 
 /***********************************/
 /* Content - Left */
@@ -395,7 +406,13 @@ nav.pager { clear:both; margin-top:40px; }
 .dateAdded                          { font-weight:bold; color:#000; }
 .commentCount                       { color:#0098BA; }
 #BoardPanel                         { background-color:#F0F1F1; border:1px solid #CCC; padding-top:10px; width:80%; margin:auto; margin-top:20px; }
-#ratingDisplay                      { background:#F3F3F3; border-bottom:1px solid #E5E5E5; height:40px; width:630px; padding:15px 0 0 10px; }
+#ratingDisplay                      { 
+	background:#F3F3F3; 
+	border-bottom:1px solid #E5E5E5; 
+	/*height:40px; 
+	width:630px;*/ 
+	width: 100%;
+	padding:15px 0 0 10px; }
 #comments .TextboxField             { width:350px; }
 #comments .TextAreaField            { width:350px; height:200px; }
 .commentsHeader                     { border-bottom:1px solid #e5e5e5; height:45px; padding-bottom:4px; }
@@ -680,6 +697,9 @@ ol.commentlist img.avatar { float: left; margin-right: 10px; }
 .call-panel h2 { font-weight:800; color:#156c86; font-size:26px; text-transform:uppercase; }
 .call-panel p { margin-top:2px; font-size:18px; line-height:1.4; }
 .call-panel .btn { background: #239bbd; background: -moz-linear-gradient(top, #239bbd 1%, #1f87a5 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#239bbd), color-stop(100%,#1f87a5)); background: -webkit-linear-gradient(top, #239bbd 1%,#1f87a5 100%); background: -o-linear-gradient(top, #239bbd 1%,#1f87a5 100%); background: -ms-linear-gradient(top, #239bbd 1%,#1f87a5 100%); background: linear-gradient(to bottom, #239bbd 1%,#1f87a5 100%); filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#239bbd', endColorstr='#1f87a5',GradientType=0 ); color:#fff; text-shadow:0 1px 3px rgba(0,0,0,0.4); box-shadow:0 1px 5px rgba(0,0,0,0.3); border:0; font-weight: 800; font-size: 17px; padding: 10px 30px; border-radius: 18px; }
+@media (max-width: 290px) {
+	.call-panel .btn {padding: 5px 10px;}
+}
 
 .story-content h2 { font-weight:800; color:#268dac; font-size:25px; margin:16px 0 8px; text-transform:uppercase; }
 .story-content p { font-size:17px; line-height:1.4; margin-bottom:16px; }

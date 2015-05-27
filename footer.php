@@ -23,18 +23,18 @@
 							<form action="http://electrictv.us4.list-manage1.com/subscribe/post?u=ffcb7e918564d542fe0cdb4e2&amp;id=59d636fc06" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
 								<table cellspacing="0" cellpadding="0" border="0" class="Table">
 									<tr>
-										<td>
+										<td class="large-6 medium-6 small-12 columns">
 											<input name="FNAME" type="text" maxlength="200" id="mce-FNAME" class="SubscriptionTextbox" placeholder="First Name" />
 										</td>
-										<td>
+										<td class="large-6 medium-6 small-12 columns">
 											<input name="LNAME" type="text" maxlength="200" id="mce-LNAME" class="SubscriptionTextbox" placeholder="Last Name" />
 										</td>
 									</tr>
 									<tr>
-										<td>
+										<td class="large-6 medium-6 small-12 columns">
 											<input name="EMAIL" type="email" maxlength="400" id="mce-EMAIL" class="SubscriptionTextbox" placeholder="Email Address" />
 										</td>
-										<td class="right">
+										<td class="right large-6 medium-6 small-12 columns">
 											<input type="image" name="subscribe" id="mc-embedded-subscribe" src="/img/btnSubscribeFooter.png" />
 										</td>
 									</tr>
